@@ -88,3 +88,12 @@ function loadingData() {
 }
 
 loadingData()
+
+function headerMargin() {
+    const header = document.querySelector("header")
+    const main = document.querySelector("main")
+    
+    main.style.marginTop = header.offsetHeight + "px"
+}
+
+headerMargin()
