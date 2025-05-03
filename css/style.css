@@ -76,15 +76,17 @@
     left: 0;
 
     display: flex;
+    /* display: none; */
     flex-direction: column;
 
     width: 100vw;
     height: 100vh;
-
-    background: linear-gradient(#fff, rgba(255, 255, 255, 0.75));
+    
     z-index: 200;
+    background: linear-gradient(#fff, rgba(255, 255, 255, 0.75));
     transition: .5s cubic-bezier(0.645, 0.045, 0.355, 1) transform, 1s cubic-bezier(0.645, 0.045, 0.355, 1) opacity;
     opacity: 0;
+    pointer-events: none;
 }
 
 .mobile-menu-top {
@@ -128,6 +130,7 @@
 
 #mobile-menu:checked ~ .mobile-menu {
     opacity: 1;
+    pointer-events: auto;
 }
 
 #mobile-menu:checked ~ .mobile-menu .mobile-menu-nav {
