@@ -61,11 +61,83 @@
 	src: local('Pretendard Thin'), url(../static/woff2/Pretendard-Thin.woff2) format('woff2'), url(./woff/Pretendard-Thin.woff) format('woff');
 }
 
-* {margin: 0; padding: 0; list-style: none; text-decoration: none; box-sizing: border-box; color: inherit; font-family: 'Pretendard';}
+* {margin: 0; padding: 0; list-style: none; text-decoration: none; box-sizing: border-box; color: inherit; font-family: 'Pretendard'; -webkit-tap-highlight-color: transparent;}
 
 .container {
     display: flex;
     flex-direction: column;
+}
+
+/* mobile menu! */
+
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 100vw;
+    height: 100vh;
+
+    /* background-color: rgba(255, 255, 255, 0.75); */
+    background: linear-gradient(#fff, rgba(255, 255, 255, 0.75));
+    z-index: 100;
+    transition: .5s cubic-bezier(0.645, 0.045, 0.355, 1) transform, 1s cubic-bezier(0.645, 0.045, 0.355, 1) opacity;
+    opacity: 0;
+}
+
+.mobile-menu-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 25px;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.mobile-menu-close-btn {
+    height: 25px;
+    
+    cursor: pointer;
+    opacity: 0;
+    transition: 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.mobile-menu-close-btn img {
+    height: 100%;
+}
+
+.mobile-menu-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
+    padding: 25px;
+    
+    font-size: 22px;
+    transform: translateX(-50%);
+    transition: 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    opacity: 0;
+}   
+
+.mobile-menu .search {
+    height: 22px;
+}
+
+#mobile-menu:checked ~ .mobile-menu {
+    opacity: 1;
+}
+
+#mobile-menu:checked ~ .mobile-menu .mobile-menu-nav {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+#mobile-menu:checked ~ .mobile-menu .mobile-menu-close-btn {
+    opacity: 1;
 }
 
 /* header! */
@@ -74,9 +146,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    
     padding: 25px 250px;
-
+    
     border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 
@@ -229,7 +301,7 @@ footer {
 }
 
 @media (max-width: 450px) {
-    header h2 {
+    header h2, .mobile-menu h2 {
         font-size: 22px;
     }
 
