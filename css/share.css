@@ -124,6 +124,10 @@
     opacity: 0;
 }   
 
+.mobile-menu-nav a {
+    width: fit-content;
+}
+
 .mobile-menu .search {
     height: 22px;
 }
