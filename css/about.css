@@ -9,20 +9,20 @@ main {
 }
 
 .main-title {
+    display: flex;
+    flex-direction: column;
+    gap: 6.25px;
+
     font-size: 18px;
 }
 
-.main-title span {
-    font-weight: 700;
-}
-
-.story {
+.content {
     display: flex;
     flex-direction: column;
     gap: 6.25px;
 }
 
-.story li {
+.content li {
     font-size: 14px;
     color: rgba(0, 0, 0, 0.5);
 }
