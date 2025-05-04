@@ -23,7 +23,6 @@ main {
 }
 
 .content li {
-    font-size: 14px;
     color: rgba(0, 0, 0, 0.5);
 }
 
@@ -33,5 +32,9 @@ main {
 @media (max-width: 450px) {
     .main-title {
         font-size: 18px;
+    }
+    
+    .content li {
+        font-size: 14px;
     }
 }
