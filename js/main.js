@@ -24,6 +24,14 @@ const contents = [
         "hashtags": ["remake", "design", "moblie & desktop"]
     },
     {
+        "link": "https://www.figma.com/design/xkM0jdRxf07BPLfo6Ou2Sc/%EC%9D%B8%EC%8A%A4%ED%83%80%EA%B7%B8%EB%9E%A8-%EB%94%94%EC%9E%90%EC%9D%B8?node-id=0-1&t=Usq84usm7qesswt8-1",
+        "freeview-img": "",
+        "freeview-categorys": ["Figma"],
+        "title": "introduce items",
+        "sub-title": "2024 December Project",
+        "hashtags": ["gallery", "design", "moblie"]
+    },
+    {
         "link": "https://kream-remake-phone.vercel.app/",
         "freeview-img": "",
         "freeview-categorys": ["HTML", "CSS", "JS"],
@@ -46,6 +54,14 @@ const contents = [
         "title": "enforce sword game",
         "sub-title": "2025 May Project",
         "hashtags": ["game", "devleop", "design", "moblie & desktop"]
+    },
+    {
+        "link": "https://www.figma.com/proto/IpQosbyH9h95uOpZxfMns1/Untitled?page-id=0%3A1&node-id=170-98&p=f&viewport=-189%2C50%2C0.82&t=yWTdOuWaynSJsrA4-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=170%3A98",
+        "freeview-img": "",
+        "freeview-categorys": ["Figma"],
+        "title": "find lost items at our school",
+        "sub-title": "2025 May Project",
+        "hashtags": ["team project", "design", "moblie"]
     },
 ]
 
