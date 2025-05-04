@@ -1,0 +1,28 @@
+/* main! */
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    padding: 25px 250px;
+}
+
+.main-title {
+    font-size: 18px;
+}
+
+.main-title span {
+    font-weight: 700;
+}
+
+.story {
+    display: flex;
+    flex-direction: column;
+    gap: 6.25px;
+}
+
+.story li {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+}
