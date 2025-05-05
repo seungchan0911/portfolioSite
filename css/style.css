@@ -3,7 +3,7 @@
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 25px;
+    gap: 12.5px;
     
     padding: 25px 250px;
 }
