@@ -187,13 +187,14 @@ header {
 .mobile-menu-bar {
     display: none;
 
+    width: 25px;
     height: 25px;
 
     cursor: pointer;
 }
 
 .mobile-menu-bar img {
-    height: 100%;
+    width: 100%;
 }
 
 /* footer */
