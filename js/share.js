@@ -9,9 +9,10 @@ function headerMargin() {
     })
 }
 
-headerMargin()
-
-window.addEventListener("resize", headerMargin);
+window.addEventListener("load", () => {
+    headerMargin()
+    window.addEventListener("resize", headerMargin)
+})
 
 function mobileMenuScroll() {
     let scrollY
@@ -32,7 +33,7 @@ function mobileMenuScroll() {
             document.body.style.left = ''
             document.body.style.right = ''
 
-            window.scrollTo(0, scrollY);
+            window.scrollTo(0, scrollY)
         }
     })
 }
