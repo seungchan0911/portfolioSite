@@ -1,10 +1,10 @@
 function headerMargin() {
     requestAnimationFrame(() => {
-        const header = document.querySelector("header");
-        const main = document.querySelector("main");
+        const header = document.querySelector("header")
+        const main = document.querySelector("main")
 
         if (header && main) {
-            main.style.marginTop = header.offsetHeight + "px";
+            main.style.marginTop = header.offsetHeight + "px"
         }
     })
 }
