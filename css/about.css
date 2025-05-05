@@ -3,7 +3,7 @@
 main {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 12.5px;
 
     padding: 25px 250px;
 }
