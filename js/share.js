@@ -1,11 +1,17 @@
 function headerMargin() {
-    const header = document.querySelector("header")
-    const main = document.querySelector("main")
-    
-    main.style.marginTop = header.offsetHeight + "px"
+    requestAnimationFrame(() => {
+        const header = document.querySelector("header");
+        const main = document.querySelector("main");
+
+        if (header && main) {
+            main.style.marginTop = header.offsetHeight + "px";
+        }
+    })
 }
 
 headerMargin()
+
+window.addEventListener("resize", headerMargin);
 
 function mobileMenuScroll() {
     let scrollY
