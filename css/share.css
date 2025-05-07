@@ -229,6 +229,10 @@ header h2 {
     display: none;
 }
 
+.selected {
+    text-decoration: underline;
+}
+
 /* footer */
 
 footer {
@@ -263,11 +267,12 @@ footer {
         display: block;
     }
 
-    header, main, footer {
+    header, footer {
         padding: 25px !important;
     }
 
     main {
+        padding: 50px 25px;
         grid-template-columns: 1fr 1fr;
     }
 }
@@ -280,5 +285,7 @@ footer {
     main {
         display: flex;
         flex-direction: column;
+
+        padding: 25px;
     }
 }

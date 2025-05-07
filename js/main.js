@@ -5,7 +5,7 @@ const contents = [
         "freeview-categorys": ["HTML", "CSS", "JS"],
         "title": "life sharp",
         "sub-title": "2024 October Project",
-        "hashtags": ["original", "devlop", "design", "moblie & desktop"]
+        "hashtags": ["original", "development", "design", "moblie & desktop"]
     },
     {
         "link": "https://www.figma.com/proto/HcseLEn4BIf8xOkBVxBTeJ/Airpods?page-id=&node-id=2-79&viewport=776%2C368%2C0.24&t=dLd32EsSN1DZmX9x-1&scaling=contain&content-scaling=fixed&starting-point-node-id=1%3A2",
@@ -19,7 +19,7 @@ const contents = [
         "link": "https://www.figma.com/design/ScoxT2wWOwiOZQIGnWl1Vg/KREAM?node-id=0-1&t=76dSHa5mUh2ycTir-1",
         "freeview-img": "",
         "freeview-categorys": ["Figma"],
-        "title": "kream remake design",
+        "title": "kream remake",
         "sub-title": "2024 September Project",
         "hashtags": ["remake", "design", "moblie & desktop"]
     },
@@ -37,7 +37,7 @@ const contents = [
         "freeview-categorys": ["HTML", "CSS", "JS"],
         "title": "kream remake",
         "sub-title": "2025 January Project",
-        "hashtags": ["remake", "devleop", "moblie"]
+        "hashtags": ["remake", "development", "moblie"]
     },
     {
         "link": "https://geul-fun.vercel.app/",
@@ -45,7 +45,7 @@ const contents = [
         "freeview-categorys": ["HTML", "CSS", "JS"],
         "title": "geulfun",
         "sub-title": "2025 April Project",
-        "hashtags": ["original", "devleop", "design","desktop"]
+        "hashtags": ["original", "development", "design","desktop"]
     },
     {
         "link": "https://enforce-sword-game.vercel.app/",
@@ -53,7 +53,7 @@ const contents = [
         "freeview-categorys": ["HTML", "CSS", "JS"],
         "title": "enforce sword game",
         "sub-title": "2025 May Project",
-        "hashtags": ["game", "devleop", "design", "moblie & desktop"]
+        "hashtags": ["game", "development", "design", "moblie & desktop"]
     },
     {
         "link": "https://www.figma.com/proto/IpQosbyH9h95uOpZxfMns1/Untitled?page-id=0%3A1&node-id=170-98&p=f&viewport=-189%2C50%2C0.82&t=yWTdOuWaynSJsrA4-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=170%3A98",
@@ -62,6 +62,22 @@ const contents = [
         "title": "find lost items at our school",
         "sub-title": "2025 May Project",
         "hashtags": ["team project", "design", "moblie"]
+    },
+    {
+        "link": "https://www.figma.com/design/iXpUuEMufOuONhvsF2AX7k/Portfolio-site-design?node-id=0-1&t=m3LnUAbntuCCvPTy-1",
+        "freeview-img": "",
+        "freeview-categorys": ["Figma"],
+        "title": "seungchan kim portfolio site",  //병합 예정
+        "sub-title": "2025 May Project",
+        "hashtags": ["original", "design", "moblie & desktop"]
+    },
+    {
+        "link": "https://seungchan-kim-portfolio-site.vercel.app/index.html",
+        "freeview-img": "",
+        "freeview-categorys": ["HTML", "CSS", "JS"],
+        "title": "seungchan kim portfolio site",
+        "sub-title": "2025 May Project",
+        "hashtags": ["original", "development", "moblie & desktop"]
     },
 ]
 

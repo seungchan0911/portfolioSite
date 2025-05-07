@@ -3,9 +3,9 @@
 main {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 50px;
 
-    padding: 25px 250px;
+    padding: 50px 250px;
 }
 
 .main-title {
@@ -16,8 +16,9 @@ main {
     font-size: 18px;
 }
 
-.main-title span {
+.point {
     font-size: 24px;
+    margin-bottom: 6.25px;
 }
 
 article {
@@ -62,6 +63,10 @@ article {
 }
 
 @media (max-width: 450px) {
+    main {
+        gap: 25px;
+    }
+
     .content li {
         font-size: 14px;    
     }
