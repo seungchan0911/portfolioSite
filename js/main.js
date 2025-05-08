@@ -86,7 +86,7 @@ const contents = [
         "freeview-categorys": ["Figma"],
         "title": "cactus curry club",
         "sub-title": "2025 May Project",
-        "hashtags": ["real project", "design", "desktop"]
+        "hashtags": ["real project", "design", "mobitle & desktop"]
     },
 ]
 
