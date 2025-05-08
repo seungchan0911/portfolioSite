@@ -1,3 +1,4 @@
+// 개발, 디자인을 따로 만든 데이터들, 팝업 개발 후 모두 병합예정.
 const contents = [
     {
         "link": "https://life-sharp-high-school-assignment.vercel.app/",
@@ -67,7 +68,7 @@ const contents = [
         "link": "https://www.figma.com/design/iXpUuEMufOuONhvsF2AX7k/Portfolio-site-design?node-id=0-1&t=m3LnUAbntuCCvPTy-1",
         "freeview-img": "",
         "freeview-categorys": ["Figma"],
-        "title": "seungchan kim portfolio site",  //병합 예정
+        "title": "seungchan kim portfolio site",
         "sub-title": "2025 May Project",
         "hashtags": ["original", "design", "moblie & desktop"]
     },
@@ -78,6 +79,14 @@ const contents = [
         "title": "seungchan kim portfolio site",
         "sub-title": "2025 May Project",
         "hashtags": ["original", "development", "moblie & desktop"]
+    },
+    {
+        "link": "https://www.figma.com/proto/iuwlVsMMfenFheEWXhq890/cactus-curry-club-design-prototype?page-id=0%3A1&node-id=1-2&viewport=45%2C224%2C1.12&t=eaQDwzbiMXW6RYKh-1&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=62%3A529",
+        "freeview-img": "",
+        "freeview-categorys": ["Figma"],
+        "title": "cactus curry club",
+        "sub-title": "2025 May Project",
+        "hashtags": ["real project", "design", "desktop"]
     },
 ]
 
