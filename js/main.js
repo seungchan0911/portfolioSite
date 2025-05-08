@@ -106,7 +106,7 @@ function loadingData() {
             .join("")
 
         div.innerHTML = `
-            <a href="${content.link}">
+            <a href="${content.link}" target="_blank">
                 <div class="freeview" style="background-image: url(${content["freeview-img"]})">
                     <ul class="freeview-category">
                         ${categoryListItems}
@@ -115,7 +115,7 @@ function loadingData() {
             </a>
             <div class="text-group">
                 <div class="content-title">
-                    <a href="${content.link}">${content.title}</a>
+                    <a href="${content.link}" target="_blank">${content.title}</a>
                 </div>
                 <div class="content-sub-title">${content["sub-title"]}</div>
                 <ul class="content-hashtag">
