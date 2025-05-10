@@ -77,3 +77,9 @@ main {
     white-space: nowrap;
     cursor: pointer;
 }
+
+@media (max-width: 450px) {
+    main {
+        gap: 12.5px !important;
+    }
+}
