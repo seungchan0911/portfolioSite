@@ -86,7 +86,15 @@ const contents = [
         "freeview-categorys": ["Figma"],
         "title": "cactus curry club",
         "sub-title": "2025 May Project",
-        "hashtags": ["real project", "design", "mobitle & desktop"]
+        "hashtags": ["real project", "design", "mobile & desktop"]
+    },
+    {
+        "link": "https://cactus-curry-club.vercel.app",
+        "freeview-img": "",
+        "freeview-categorys": ["HTML", "CSS", "JS"],
+        "title": "cactus curry club",
+        "sub-title": "2025 May Project",
+        "hashtags": ["real project", "develop", "mobile & desktop"]
     },
 ]
 
