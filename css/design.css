@@ -1,0 +1,34 @@
+body {
+    background-image: url(../img/background.png);
+    background-attachment: fixed;
+    background-position: top top;
+    background-size: cover;
+}
+
+/* header! */
+
+header {
+    border: none !important;
+}
+
+/* main! */
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 62.5px 12.5px;
+
+    padding: 62.5px 250px;
+}
+
+.content img {
+    width: 100%;
+
+    vertical-align: middle;
+}
+
+@media (max-width: 450px) {
+    main {
+        gap: 25px;
+    }
+}

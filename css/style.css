@@ -3,7 +3,7 @@
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 25px 12.5px;
+    gap: 12.5px;
     
     padding: 50px 250px;
 }
@@ -80,6 +80,6 @@ main {
 
 @media (max-width: 450px) {
     main {
-        gap: 12.5px !important;
+        /* gap: 12.5px !important; */
     }
 }
