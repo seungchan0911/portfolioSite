@@ -123,7 +123,7 @@
     width: fit-content;
     
     opacity: 0;
-    transform: translateX(-50%);
+    transform: translateX(-100px);
     transition: 1s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
