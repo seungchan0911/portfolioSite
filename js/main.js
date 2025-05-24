@@ -74,7 +74,7 @@ const contents = [
     },
     {
         id: "find lost items at our school",
-        "link": "https:/asan-project.vercel.app",
+        "link": "https://asan-project.vercel.app",
         "freeview-img": "",
         "freeview-categorys": ["HTML", "CSS", "JS"],
         "title": "find lost items at our school",
