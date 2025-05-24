@@ -6,6 +6,8 @@ const contents = [
     {"img": "../img/original/posterDesign05.png"},
     {"img": "../img/original/posterDesign06.png"},
     {"img": "../img/original/posterDesign07.png"},
+    {"img": "../img/original/posterDesign08.png"},
+    {"img": "../img/original/posterDesign09.png"},
 ]
 
 function loadingData() {
