@@ -9,10 +9,10 @@ function headerMargin() {
     })
 }
 
-// window.addEventListener("load", () => {
+window.addEventListener("load", () => {
     headerMargin()
     window.addEventListener("resize", headerMargin)
-// })
+})
 
 function mobileMenuScroll() {
     let scrollY

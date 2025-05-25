@@ -6,13 +6,40 @@ main {
     padding: 50px 250px;
 }
 
+.freeview-frame {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.0625);
+    padding-bottom: 25px;
+}
+
+.freeview-description {
+    display: flex;
+    flex-direction: column;
+    gap: 12.5px;
+}
+
+.freeview-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.freeview-date {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.25);
+}
+
 .freeview {
     width: 100%;
     aspect-ratio: 16 / 9;
 
-    /* border: 1px solid rgba(0, 0, 0, 0.0625); */
+    border: 1px solid rgba(0, 0, 0, 0.0625);
     border-radius: 12.5px;
-    background: linear-gradient(to bottom left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.25)) !important;
+    background-size: 100.5%;
+    background-position: center;
+    cursor: pointer;
 }
 
 @media (max-width: 450px) {
