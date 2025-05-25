@@ -9,16 +9,18 @@ main {
 .freeview-frame {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 12.5px;
 
     border-bottom: 1px solid rgba(0, 0, 0, 0.0625);
-    padding-bottom: 25px;
+    padding-bottom: 12.5px;
 }
 
 .freeview-description {
     display: flex;
-    flex-direction: column;
-    gap: 12.5px;
+    /* flex-direction: column; */
+    /* gap: 12.5px; */
+    justify-content: space-between;
+    align-items: end;
 }
 
 .freeview-title {
@@ -45,5 +47,11 @@ main {
 @media (max-width: 450px) {
     main {
         gap: 25px;
+    }
+
+    .freeview-description {
+        flex-direction: column;
+        align-items: start;
+        gap: 12.5px;
     }
 }

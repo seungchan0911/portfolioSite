@@ -68,6 +68,10 @@ article {
     }
 
     .content li {
-        font-size: 14px;    
+        font-size: 14px;
+    }
+
+    article {
+        gap: 12.5px;
     }
 }
