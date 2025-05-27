@@ -126,19 +126,16 @@ function loadingData() {
         div.classList.add("content")
 
         const categoryListItems = content["freeview-categorys"]
-            .map(category => `<li>${category}</li>`)
+            .map(category => `<li class="${category.toLocaleLowerCase()}">${category}</li>`)
             .join("")
 
         const hashtagListItems = content.hashtags
-            .map(tag => `<li>${tag}</li>`)
+            .map(tag => `<li class="hashtag">${tag}</li>`)
             .join("")
 
         div.innerHTML = `
             <a href="detail.html?id=${content.id}">
                 <div class="freeview" style="background-image: url('${thumbnailUrl}') !important">
-                    <ul class="freeview-category">
-                        ${categoryListItems}
-                    </ul>
                 </div>
                 <div class="text-group">
                     <div class="content-title">
@@ -146,7 +143,8 @@ function loadingData() {
                         <a href="${content.link}" class="link" target="_blank">🔗</a>
                     </div>
                     <div class="content-sub-title">${content["sub-title"]}</div>
-                    <ul class="content-hashtag">
+                    <ul class="freeview-category">
+                        ${categoryListItems}
                         ${hashtagListItems}
                     </ul>
                 </div>

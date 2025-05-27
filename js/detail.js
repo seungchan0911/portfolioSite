@@ -100,7 +100,6 @@ function getDescriptionById(id) {
 }
 
 function pushData() {
-    const mobileHeaderLogo = document.querySelector(".mobile-menu-top h2")
     const description = document.querySelector(".description")
     const freeview = document.querySelector(".freeview")
     const freeviewTitle = document.querySelector(".freeview-title")
@@ -109,7 +108,6 @@ function pushData() {
     const id = getIdByParams()
     const content = data.find(item => item.id === id)
 
-    mobileHeaderLogo.textContent = id
     description.innerHTML = content.description || "planning to write..."
     const thumbnailUrl = generateUrlboxThumbnail(content.link)
     freeview.style.backgroundImage = `url('${thumbnailUrl}')`

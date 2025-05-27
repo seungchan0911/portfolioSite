@@ -9,18 +9,16 @@ main {
 .freeview-frame {
     display: flex;
     flex-direction: column;
-    gap: 12.5px;
+    gap: 17.5px;
 
     border-bottom: 1px solid rgba(0, 0, 0, 0.0625);
-    padding-bottom: 12.5px;
+    padding-bottom: 17.5px;
 }
 
 .freeview-description {
     display: flex;
-    /* flex-direction: column; */
-    /* gap: 12.5px; */
     justify-content: space-between;
-    align-items: end;
+    align-items: center;
 }
 
 .freeview-title {
